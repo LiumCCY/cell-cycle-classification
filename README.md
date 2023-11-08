@@ -1,1 +1,27 @@
 # cell-cycle-classification
+
+## Directory
+ * Modify saving directory like checkpoint, record and model via `config.py`
+
+## Step 1: Mitochondrai and nucleus prediction from brightfield
+ * Model selection and loss function selection in `run_train/train_predict_mito_nuclei.py`
+ `cd run_train`
+ `python train_predict_mito_nuclei.py`
+ ### Resut    
+ * UNet Training result     
+    - **Mitochondria**  
+        - Training Pearson Correlation Coefficient: 0.78
+        - Validation Pearson Correlation Coefficient: 0.72  
+    - **Mitochondria**  
+        - Training Pearson Correlation Coefficient: 0.85
+        - Validation Pearson Correlation Coefficient: 0.83    
+
+## Step 2: Cell cycle classification from brightfield/predicted mitochondria/predicted nucleus
+
+
+## Plot
+ * Plot training process through `plot/plot_result.py`
+ * Predict through `plot/predict.py`
+
+## Result
+ * Few results saved in `result`
