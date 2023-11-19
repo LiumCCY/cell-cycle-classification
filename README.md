@@ -7,7 +7,7 @@
  * Model selection and loss function selection in `run_train/train_predict_mito_nuclei.py`
  `cd run_train`
  `python train_predict_mito_nuclei.py`
- ### Resut    
+ ### Result    
  * UNet Training result     
     - **Mitochondria**  
         - Training Pearson Correlation Coefficient: 0.78
