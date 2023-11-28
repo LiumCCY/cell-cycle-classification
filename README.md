@@ -19,9 +19,9 @@
 ## Step 2: Cell cycle classification from brightfield/predicted mitochondria/predicted nucleus
 
 
-## Plot
+### Plot
  * Plot training process through `plot/plot_result.py`
  * Predict through `plot/predict.py`
 
-## Result
+### Result
  * Few results saved in `result`
